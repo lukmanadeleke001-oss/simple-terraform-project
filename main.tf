@@ -1,5 +1,8 @@
 #create s3 bucket
-resource "aws_s3_bucket" "mybucket" {
+resource "
+  versioning {
+    enabled = true
+  }" "mybucket" {
   bucket = var.bucketname
 }
 
