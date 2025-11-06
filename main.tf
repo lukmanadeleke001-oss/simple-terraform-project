@@ -1,6 +1,7 @@
 #create s3 bucket
 resource "
-  versioning {
+ 
+versioning {
     enabled = true
   }" "mybucket" {
   bucket = var.bucketname
